@@ -1,0 +1,23 @@
+﻿body {
+}
+
+.body-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    width: 900px;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.ctrl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
