@@ -3,24 +3,6 @@
   "version": -9996,
   "targets": {
     "DNX,Version=v4.5.1": {
-      "EntityFramework.Commands/7.0.0-beta5": {
-        "dependencies": {
-          "EntityFramework.Relational.Design": "7.0.0-beta5",
-          "Microsoft.AspNet.Hosting": "1.0.0-beta5"
-        },
-        "frameworkAssemblies": [
-          "mscorlib",
-          "System",
-          "System.Core",
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/dnx451/EntityFramework.Commands.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/EntityFramework.Commands.dll": {}
-        }
-      },
       "EntityFramework.Core/7.0.0-beta5": {
         "dependencies": {
           "Ix-Async": "1.2.3",
@@ -78,29 +60,6 @@
         },
         "runtime": {
           "lib/net45/EntityFramework.Relational.dll": {}
-        }
-      },
-      "EntityFramework.Relational.Design/7.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.AspNet.Razor": "4.0.0-beta5",
-          "Microsoft.CodeAnalysis.CSharp": "1.0.0-rc3",
-          "EntityFramework.Relational": "7.0.0-beta5",
-          "Microsoft.Framework.Runtime.Roslyn": "1.0.0-beta5"
-        },
-        "frameworkAssemblies": [
-          "System.IO",
-          "System.Text.Encoding",
-          "System.Threading.Tasks",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/dnx451/EntityFramework.Relational.Design.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/EntityFramework.Relational.Design.dll": {}
         }
       },
       "EntityFramework.SqlServer/7.0.0-beta5": {
@@ -173,41 +132,6 @@
           "lib/dnx451/Microsoft.AspNet.Authentication.Cookies.dll": {}
         }
       },
-      "Microsoft.AspNet.Authentication.Facebook/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.AspNet.Authentication.OAuth": "1.0.0-beta5",
-          "Newtonsoft.Json": "6.0.6"
-        },
-        "frameworkAssemblies": [
-          "mscorlib",
-          "System",
-          "System.Core",
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.AspNet.Authentication.Facebook.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.AspNet.Authentication.Facebook.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Authentication.Google/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.AspNet.Authentication.OAuth": "1.0.0-beta5"
-        },
-        "frameworkAssemblies": [
-          "mscorlib",
-          "System",
-          "System.Core",
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.AspNet.Authentication.Google.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.AspNet.Authentication.Google.dll": {}
-        }
-      },
       "Microsoft.AspNet.Authentication.MicrosoftAccount/1.0.0-beta5": {
         "dependencies": {
           "Microsoft.AspNet.Authentication.OAuth": "1.0.0-beta5"
@@ -243,25 +167,6 @@
         },
         "runtime": {
           "lib/dnx451/Microsoft.AspNet.Authentication.OAuth.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Authentication.Twitter/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.AspNet.Authentication": "1.0.0-beta5"
-        },
-        "frameworkAssemblies": [
-          "System.Net.Http.WebRequest",
-          "System.Net.Http",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.AspNet.Authentication.Twitter.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.AspNet.Authentication.Twitter.dll": {}
         }
       },
       "Microsoft.AspNet.Authorization/1.0.0-beta5": {
@@ -1342,46 +1247,6 @@
           "lib/dnx451/Microsoft.Framework.Runtime.Abstractions.dll": {}
         }
       },
-      "Microsoft.Framework.Runtime.Caching/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta5"
-        },
-        "frameworkAssemblies": [
-          "mscorlib",
-          "System",
-          "System.Core",
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.Framework.Runtime.Caching.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.Framework.Runtime.Caching.dll": {}
-        }
-      },
-      "Microsoft.Framework.Runtime.Roslyn/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta5",
-          "Microsoft.Framework.Runtime.Roslyn.Abstractions": "1.0.0-beta5",
-          "Microsoft.Framework.Runtime.Caching": "1.0.0-beta5"
-        },
-        "frameworkAssemblies": [
-          "System.Collections",
-          "System.IO",
-          "System.Threading.Tasks",
-          "System.Text.Encoding",
-          "mscorlib",
-          "System",
-          "System.Core",
-          "Microsoft.CSharp"
-        ],
-        "compile": {
-          "lib/dnx451/Microsoft.Framework.Runtime.Roslyn.dll": {}
-        },
-        "runtime": {
-          "lib/dnx451/Microsoft.Framework.Runtime.Roslyn.dll": {}
-        }
-      },
       "Microsoft.Framework.Runtime.Roslyn.Abstractions/1.0.0-beta5": {
         "dependencies": {
           "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta5",
@@ -1555,18 +1420,6 @@
       }
     },
     "DNXCore,Version=v5.0": {
-      "EntityFramework.Commands/7.0.0-beta5": {
-        "dependencies": {
-          "EntityFramework.Relational.Design": "7.0.0-beta5",
-          "Microsoft.AspNet.Hosting": "1.0.0-beta5"
-        },
-        "compile": {
-          "lib/dnxcore50/EntityFramework.Commands.dll": {}
-        },
-        "runtime": {
-          "lib/dnxcore50/EntityFramework.Commands.dll": {}
-        }
-      },
       "EntityFramework.Core/7.0.0-beta5": {
         "dependencies": {
           "Ix-Async": "1.2.3",
@@ -1615,20 +1468,6 @@
         },
         "runtime": {
           "lib/dotnet/EntityFramework.Relational.dll": {}
-        }
-      },
-      "EntityFramework.Relational.Design/7.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.AspNet.Razor": "4.0.0-beta5",
-          "Microsoft.CodeAnalysis.CSharp": "1.0.0-rc3",
-          "EntityFramework.Relational": "7.0.0-beta5",
-          "Microsoft.Framework.Runtime.Roslyn": "1.0.0-beta5"
-        },
-        "compile": {
-          "lib/dnxcore50/EntityFramework.Relational.Design.dll": {}
-        },
-        "runtime": {
-          "lib/dnxcore50/EntityFramework.Relational.Design.dll": {}
         }
       },
       "EntityFramework.SqlServer/7.0.0-beta5": {
@@ -1681,69 +1520,6 @@
         },
         "runtime": {
           "lib/dnxcore50/Microsoft.AspNet.Authentication.Cookies.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Authentication.Facebook/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.AspNet.Authentication.OAuth": "1.0.0-beta5",
-          "Newtonsoft.Json": "6.0.6",
-          "System.Security.Cryptography.Hashing.Algorithms": "4.0.0-beta-23019"
-        },
-        "compile": {
-          "lib/dnxcore50/Microsoft.AspNet.Authentication.Facebook.dll": {}
-        },
-        "runtime": {
-          "lib/dnxcore50/Microsoft.AspNet.Authentication.Facebook.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Authentication.Google/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.AspNet.Authentication.OAuth": "1.0.0-beta5"
-        },
-        "compile": {
-          "lib/dnxcore50/Microsoft.AspNet.Authentication.Google.dll": {}
-        },
-        "runtime": {
-          "lib/dnxcore50/Microsoft.AspNet.Authentication.Google.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Authentication.MicrosoftAccount/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.AspNet.Authentication.OAuth": "1.0.0-beta5",
-          "System.Dynamic.Runtime": "4.0.10-beta-23019",
-          "System.ObjectModel": "4.0.10-beta-23019"
-        },
-        "compile": {
-          "lib/dnxcore50/Microsoft.AspNet.Authentication.MicrosoftAccount.dll": {}
-        },
-        "runtime": {
-          "lib/dnxcore50/Microsoft.AspNet.Authentication.MicrosoftAccount.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Authentication.OAuth/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.AspNet.Authentication": "1.0.0-beta5",
-          "Newtonsoft.Json": "6.0.6",
-          "System.Net.Http.WinHttpHandler": "4.0.0-beta-23019"
-        },
-        "compile": {
-          "lib/dnxcore50/Microsoft.AspNet.Authentication.OAuth.dll": {}
-        },
-        "runtime": {
-          "lib/dnxcore50/Microsoft.AspNet.Authentication.OAuth.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Authentication.Twitter/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.AspNet.Authentication": "1.0.0-beta5",
-          "System.Net.Http.WinHttpHandler": "4.0.0-beta-23019",
-          "System.Security.Cryptography.Hashing.Algorithms": "4.0.0-beta-23019"
-        },
-        "compile": {
-          "lib/dnxcore50/Microsoft.AspNet.Authentication.Twitter.dll": {}
-        },
-        "runtime": {
-          "lib/dnxcore50/Microsoft.AspNet.Authentication.Twitter.dll": {}
         }
       },
       "Microsoft.AspNet.Authorization/1.0.0-beta5": {
@@ -2754,37 +2530,6 @@
           "lib/dnxcore50/Microsoft.Framework.Runtime.Abstractions.dll": {}
         }
       },
-      "Microsoft.Framework.Runtime.Caching/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta5",
-          "System.Runtime": "4.0.20-beta-23019",
-          "System.IO.FileSystem": "4.0.0-beta-23019",
-          "System.Linq": "4.0.0-beta-23019",
-          "System.Collections.Concurrent": "4.0.10-beta-23019"
-        },
-        "compile": {
-          "lib/dnxcore50/Microsoft.Framework.Runtime.Caching.dll": {}
-        },
-        "runtime": {
-          "lib/dnxcore50/Microsoft.Framework.Runtime.Caching.dll": {}
-        }
-      },
-      "Microsoft.Framework.Runtime.Roslyn/1.0.0-beta5": {
-        "dependencies": {
-          "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta5",
-          "Microsoft.Framework.Runtime.Roslyn.Abstractions": "1.0.0-beta5",
-          "Microsoft.Framework.Runtime.Caching": "1.0.0-beta5",
-          "System.Collections.Concurrent": "4.0.10-beta-23019",
-          "System.Runtime.InteropServices": "4.0.20-beta-23019",
-          "System.IO.FileSystem": "4.0.0-beta-23019"
-        },
-        "compile": {
-          "lib/dnxcore50/Microsoft.Framework.Runtime.Roslyn.dll": {}
-        },
-        "runtime": {
-          "lib/dnxcore50/Microsoft.Framework.Runtime.Roslyn.dll": {}
-        }
-      },
       "Microsoft.Framework.Runtime.Roslyn.Abstractions/1.0.0-beta5": {
         "dependencies": {
           "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta5",
@@ -3336,25 +3081,6 @@
           "lib/DNXCore50/System.IO.dll": {}
         }
       },
-      "System.IO.Compression/4.0.0-beta-23019": {
-        "dependencies": {
-          "System.Runtime": "4.0.0-beta-23019",
-          "System.IO": "4.0.0-beta-23019",
-          "System.Text.Encoding": "4.0.0-beta-23019",
-          "System.Resources.ResourceManager": "4.0.0-beta-23019",
-          "System.Threading.Tasks": "4.0.0-beta-23019",
-          "System.Runtime.InteropServices": "4.0.0-beta-23019",
-          "System.Collections": "4.0.0-beta-23019",
-          "System.Runtime.Extensions": "4.0.0-beta-23019",
-          "System.Threading": "4.0.0-beta-23019"
-        },
-        "compile": {
-          "ref/dotnet/System.IO.Compression.dll": {}
-        },
-        "runtime": {
-          "lib/dotnet/System.IO.Compression.dll": {}
-        }
-      },
       "System.IO.FileSystem/4.0.0-beta-23019": {
         "dependencies": {
           "System.Runtime": "4.0.20-beta-23019",
@@ -3462,58 +3188,6 @@
         },
         "runtime": {
           "lib/dotnet/System.Linq.Queryable.dll": {}
-        }
-      },
-      "System.Net.Http/4.0.0-beta-23019": {
-        "dependencies": {
-          "System.Runtime": "4.0.20-beta-23019",
-          "System.Runtime.InteropServices": "4.0.20-beta-23019",
-          "System.Resources.ResourceManager": "4.0.0-beta-23019",
-          "System.Runtime.Handles": "4.0.0-beta-23019",
-          "System.Security.Cryptography.X509Certificates": "4.0.0-beta-23019",
-          "Microsoft.Win32.Primitives": "4.0.0-beta-23019",
-          "System.Threading.Tasks": "4.0.0-beta-23019",
-          "System.Diagnostics.Debug": "4.0.0-beta-23019",
-          "System.Collections": "4.0.0-beta-23019",
-          "System.Runtime.Extensions": "4.0.0-beta-23019",
-          "System.Globalization": "4.0.0-beta-23019",
-          "System.Threading": "4.0.0-beta-23019",
-          "System.IO.Compression": "4.0.0-beta-23019",
-          "System.Net.Primitives": "4.0.10-beta-23019",
-          "System.IO": "4.0.10-beta-23019",
-          "System.Text.Encoding": "4.0.10-beta-23019"
-        },
-        "compile": {
-          "ref/dotnet/System.Net.Http.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Net.Http.dll": {}
-        }
-      },
-      "System.Net.Http.WinHttpHandler/4.0.0-beta-23019": {
-        "dependencies": {
-          "System.Runtime": "4.0.0-beta-23019",
-          "System.Resources.ResourceManager": "4.0.0-beta-23019",
-          "System.Runtime.Handles": "4.0.0-beta-23019",
-          "System.Security.Cryptography.X509Certificates": "4.0.0-beta-23019",
-          "Microsoft.Win32.Primitives": "4.0.0-beta-23019",
-          "System.Net.Http": "4.0.0-beta-23019",
-          "System.Threading.Tasks": "4.0.0-beta-23019",
-          "System.IO": "4.0.0-beta-23019",
-          "System.Diagnostics.Debug": "4.0.0-beta-23019",
-          "System.Runtime.Extensions": "4.0.0-beta-23019",
-          "System.Globalization": "4.0.0-beta-23019",
-          "System.Threading": "4.0.0-beta-23019",
-          "System.IO.Compression": "4.0.0-beta-23019",
-          "System.Text.Encoding": "4.0.0-beta-23019",
-          "System.Net.Primitives": "4.0.10-beta-23019",
-          "System.Runtime.InteropServices": "4.0.20-beta-23019"
-        },
-        "compile": {
-          "lib/DNXCore50/System.Net.Http.WinHttpHandler.dll": {}
-        },
-        "runtime": {
-          "lib/DNXCore50/System.Net.Http.WinHttpHandler.dll": {}
         }
       },
       "System.Net.NetworkInformation/4.0.10-beta-23019": {
@@ -4184,33 +3858,6 @@
     }
   },
   "libraries": {
-    "EntityFramework.Commands/7.0.0-beta5": {
-      "serviceable": true,
-      "sha512": "TFfcJ6hVXY5XleybC/zAgcudMZXdHo34AjqRPdZLLH1RoCFZdqvGWLiE04tKKgJ0Mh8LcOgrzHLzKikpXBZ31A==",
-      "files": [
-        "EntityFramework.Commands.7.0.0-beta5.nupkg",
-        "EntityFramework.Commands.7.0.0-beta5.nupkg.sha512",
-        "EntityFramework.Commands.nuspec",
-        "app/ef",
-        "app/ef.cmd",
-        "app/project.json",
-        "build/netcore50/EntityFramework.Commands.targets",
-        "lib/dnx451/EntityFramework.Commands.dll",
-        "lib/dnx451/EntityFramework.Commands.xml",
-        "lib/dnxcore50/EntityFramework.Commands.dll",
-        "lib/dnxcore50/EntityFramework.Commands.xml",
-        "lib/net45/EntityFramework.Commands.dll",
-        "lib/net45/EntityFramework.Commands.xml",
-        "lib/netcore50/_._",
-        "tools/about_EntityFramework.help.txt",
-        "tools/EntityFramework.psd1",
-        "tools/EntityFramework.psm1",
-        "tools/Handlers.cs",
-        "tools/IHandlers.cs",
-        "tools/init.ps1",
-        "tools/install.ps1"
-      ]
-    },
     "EntityFramework.Core/7.0.0-beta5": {
       "serviceable": true,
       "sha512": "ve2pbo9x1we+Reb4o3CEX7Sf1eu4t3TCqUIoVc7RTcmZZQTd4uZa5jLmLjExRJHSyYdgKX9Gdjts1oMHXxWtZQ==",
@@ -4237,23 +3884,6 @@
         "lib/dotnet/EntityFramework.Relational.xml",
         "lib/net45/EntityFramework.Relational.dll",
         "lib/net45/EntityFramework.Relational.xml"
-      ]
-    },
-    "EntityFramework.Relational.Design/7.0.0-beta5": {
-      "serviceable": true,
-      "sha512": "fnzBpaBUos1xfNvPV8lhrUxSduTZVBBvdqhjDQ4MjtgKy3w7hFnHMqF2yrBL1TFSozFcd7jR87JdliMh6tZJYQ==",
-      "files": [
-        "EntityFramework.Relational.Design.7.0.0-beta5.nupkg",
-        "EntityFramework.Relational.Design.7.0.0-beta5.nupkg.sha512",
-        "EntityFramework.Relational.Design.nuspec",
-        "build/netcore50/EntityFramework.Relational.Design.targets",
-        "lib/dnx451/EntityFramework.Relational.Design.dll",
-        "lib/dnx451/EntityFramework.Relational.Design.xml",
-        "lib/dnxcore50/EntityFramework.Relational.Design.dll",
-        "lib/dnxcore50/EntityFramework.Relational.Design.xml",
-        "lib/net45/EntityFramework.Relational.Design.dll",
-        "lib/net45/EntityFramework.Relational.Design.xml",
-        "lib/netcore50/_._"
       ]
     },
     "EntityFramework.SqlServer/7.0.0-beta5": {
@@ -4309,32 +3939,6 @@
         "lib/dnxcore50/Microsoft.AspNet.Authentication.Cookies.xml"
       ]
     },
-    "Microsoft.AspNet.Authentication.Facebook/1.0.0-beta5": {
-      "serviceable": true,
-      "sha512": "iBqWKsJPCS+ajVOrd4QQsuQ16Q6hNL5aCESEjyVlGLJXJbqMPkWraKxTWRJYNLm1PN8cKXkAhuB4v91hqne1Pg==",
-      "files": [
-        "Microsoft.AspNet.Authentication.Facebook.1.0.0-beta5.nupkg",
-        "Microsoft.AspNet.Authentication.Facebook.1.0.0-beta5.nupkg.sha512",
-        "Microsoft.AspNet.Authentication.Facebook.nuspec",
-        "lib/dnx451/Microsoft.AspNet.Authentication.Facebook.dll",
-        "lib/dnx451/Microsoft.AspNet.Authentication.Facebook.xml",
-        "lib/dnxcore50/Microsoft.AspNet.Authentication.Facebook.dll",
-        "lib/dnxcore50/Microsoft.AspNet.Authentication.Facebook.xml"
-      ]
-    },
-    "Microsoft.AspNet.Authentication.Google/1.0.0-beta5": {
-      "serviceable": true,
-      "sha512": "H0nhpZSn0U49CTURDESV9AB7t/WqssJiOOy4h61euZ+D0BvAsxzbm9fhvY3Nsm3LXesPeJy/y6SLtwh4g0u4mw==",
-      "files": [
-        "Microsoft.AspNet.Authentication.Google.1.0.0-beta5.nupkg",
-        "Microsoft.AspNet.Authentication.Google.1.0.0-beta5.nupkg.sha512",
-        "Microsoft.AspNet.Authentication.Google.nuspec",
-        "lib/dnx451/Microsoft.AspNet.Authentication.Google.dll",
-        "lib/dnx451/Microsoft.AspNet.Authentication.Google.xml",
-        "lib/dnxcore50/Microsoft.AspNet.Authentication.Google.dll",
-        "lib/dnxcore50/Microsoft.AspNet.Authentication.Google.xml"
-      ]
-    },
     "Microsoft.AspNet.Authentication.MicrosoftAccount/1.0.0-beta5": {
       "serviceable": true,
       "sha512": "BobLYVa3LuUXJlTN0A5gwM5h/HVE/2kVtTS/JQJcLZwMwU9IcDQWlEoDx+9NBsNYa9Af9RAfimrC3fQdUUqaUA==",
@@ -4359,19 +3963,6 @@
         "lib/dnx451/Microsoft.AspNet.Authentication.OAuth.xml",
         "lib/dnxcore50/Microsoft.AspNet.Authentication.OAuth.dll",
         "lib/dnxcore50/Microsoft.AspNet.Authentication.OAuth.xml"
-      ]
-    },
-    "Microsoft.AspNet.Authentication.Twitter/1.0.0-beta5": {
-      "serviceable": true,
-      "sha512": "kyXpMJ3kKloDCa5t9SHtM9bTuAwjF4UoNWtarfOVztyJdPOXEQue1XgbGrXgAnqSCsl2PQPELQDKWCuGX7GTUA==",
-      "files": [
-        "Microsoft.AspNet.Authentication.Twitter.1.0.0-beta5.nupkg",
-        "Microsoft.AspNet.Authentication.Twitter.1.0.0-beta5.nupkg.sha512",
-        "Microsoft.AspNet.Authentication.Twitter.nuspec",
-        "lib/dnx451/Microsoft.AspNet.Authentication.Twitter.dll",
-        "lib/dnx451/Microsoft.AspNet.Authentication.Twitter.xml",
-        "lib/dnxcore50/Microsoft.AspNet.Authentication.Twitter.dll",
-        "lib/dnxcore50/Microsoft.AspNet.Authentication.Twitter.xml"
       ]
     },
     "Microsoft.AspNet.Authorization/1.0.0-beta5": {
@@ -5240,31 +4831,6 @@
         "lib/dnxcore50/Microsoft.Framework.Runtime.Abstractions.xml"
       ]
     },
-    "Microsoft.Framework.Runtime.Caching/1.0.0-beta5": {
-      "sha512": "70c4qatSDcPulQ6MMtu208Aj0VjUZW3I+B8cYfvVCfU998PbA8rbRrzSkHXGJjs8wZj5CDRAFmX6S7SgfhsJIg==",
-      "files": [
-        "Microsoft.Framework.Runtime.Caching.1.0.0-beta5.nupkg",
-        "Microsoft.Framework.Runtime.Caching.1.0.0-beta5.nupkg.sha512",
-        "Microsoft.Framework.Runtime.Caching.nuspec",
-        "lib/dnx451/Microsoft.Framework.Runtime.Caching.dll",
-        "lib/dnx451/Microsoft.Framework.Runtime.Caching.xml",
-        "lib/dnxcore50/Microsoft.Framework.Runtime.Caching.dll",
-        "lib/dnxcore50/Microsoft.Framework.Runtime.Caching.xml"
-      ]
-    },
-    "Microsoft.Framework.Runtime.Roslyn/1.0.0-beta5": {
-      "serviceable": true,
-      "sha512": "ThA+b10cV9XKt2tWm1JHxO/j+LVmHp4X22I0p+xno1nHZE831v+ZkgxLcfu2DypY18hTP0zobYxupC44edrHGA==",
-      "files": [
-        "Microsoft.Framework.Runtime.Roslyn.1.0.0-beta5.nupkg",
-        "Microsoft.Framework.Runtime.Roslyn.1.0.0-beta5.nupkg.sha512",
-        "Microsoft.Framework.Runtime.Roslyn.nuspec",
-        "lib/dnx451/Microsoft.Framework.Runtime.Roslyn.dll",
-        "lib/dnx451/Microsoft.Framework.Runtime.Roslyn.xml",
-        "lib/dnxcore50/Microsoft.Framework.Runtime.Roslyn.dll",
-        "lib/dnxcore50/Microsoft.Framework.Runtime.Roslyn.xml"
-      ]
-    },
     "Microsoft.Framework.Runtime.Roslyn.Abstractions/1.0.0-beta5": {
       "serviceable": true,
       "sha512": "BHWWRfmzRaHPWnWNFnI3SO+Q4H0JCwnBuspfwv1PeHwOjygMV4jN6+w5T8UjgRM3/pVt2A7ZhlX8RjAQBeEZfA==",
@@ -5737,23 +5303,6 @@
         "runtimes/win8-aot/lib/netcore50/System.IO.dll"
       ]
     },
-    "System.IO.Compression/4.0.0-beta-23019": {
-      "sha512": "sc9LskbuP6P8pt5nLmNBKnn8sErHfAbzd19sAKy1Qz4rHx+q0nkn5nE/cAvdMstZj9st8H17KVvPFbNF49Z3Gw==",
-      "files": [
-        "runtime.json",
-        "System.IO.Compression.4.0.0-beta-23019.nupkg",
-        "System.IO.Compression.4.0.0-beta-23019.nupkg.sha512",
-        "System.IO.Compression.nuspec",
-        "lib/dotnet/System.IO.Compression.dll",
-        "lib/net45/_._",
-        "lib/netcore50/System.IO.Compression.dll",
-        "lib/win8/_._",
-        "ref/dotnet/System.IO.Compression.dll",
-        "ref/net45/_._",
-        "ref/netcore50/System.IO.Compression.dll",
-        "ref/win8/_._"
-      ]
-    },
     "System.IO.FileSystem/4.0.0-beta-23019": {
       "sha512": "5IcxmjfWAJd+/ApnqVxG9DGSGAkw8qeZinbJ6jmbQK+hIUp7sDxhlwgN4AmQHh7q4pKATM1uSFXpm4rlbFsqUA==",
       "files": [
@@ -5836,31 +5385,6 @@
         "ref/net45/_._",
         "ref/netcore50/System.Linq.Queryable.dll",
         "ref/win8/_._"
-      ]
-    },
-    "System.Net.Http/4.0.0-beta-23019": {
-      "sha512": "Z0FOEd5NsFPmU8pfWWdaNu2efWEfBjtjml7TG/kptpGeD7XhvhkVPlhItCX1c8Jnl74qJxdSnxKN03qtmu1KJg==",
-      "files": [
-        "System.Net.Http.4.0.0-beta-23019.nupkg",
-        "System.Net.Http.4.0.0-beta-23019.nupkg.sha512",
-        "System.Net.Http.nuspec",
-        "lib/DNXCore50/System.Net.Http.dll",
-        "lib/net45/_._",
-        "lib/netcore50/System.Net.Http.dll",
-        "lib/win8/_._",
-        "ref/dotnet/System.Net.Http.dll",
-        "ref/net45/_._",
-        "ref/netcore50/System.Net.Http.dll",
-        "ref/win8/_._"
-      ]
-    },
-    "System.Net.Http.WinHttpHandler/4.0.0-beta-23019": {
-      "sha512": "ORrNgvxNdECk79Af/X5BG6EHcP7iclmS9c4uxKxRyArwjU73KO5oHzEtWEN65GRetUuohHAZc9AWs382LcTFUQ==",
-      "files": [
-        "System.Net.Http.WinHttpHandler.4.0.0-beta-23019.nupkg",
-        "System.Net.Http.WinHttpHandler.4.0.0-beta-23019.nupkg.sha512",
-        "System.Net.Http.WinHttpHandler.nuspec",
-        "lib/DNXCore50/System.Net.Http.WinHttpHandler.dll"
       ]
     },
     "System.Net.NetworkInformation/4.0.10-beta-23019": {
@@ -6471,15 +5995,8 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "EntityFramework.SqlServer >= 7.0.0-beta5",
-      "EntityFramework.Commands >= 7.0.0-beta5",
       "Microsoft.AspNet.Mvc >= 6.0.0-beta5",
       "Microsoft.AspNet.Mvc.TagHelpers >= 6.0.0-beta5",
-      "Microsoft.AspNet.Authentication.Cookies >= 1.0.0-beta5",
-      "Microsoft.AspNet.Authentication.Facebook >= 1.0.0-beta5",
-      "Microsoft.AspNet.Authentication.Google >= 1.0.0-beta5",
-      "Microsoft.AspNet.Authentication.MicrosoftAccount >= 1.0.0-beta5",
-      "Microsoft.AspNet.Authentication.Twitter >= 1.0.0-beta5",
       "Microsoft.AspNet.Diagnostics >= 1.0.0-beta5",
       "Microsoft.AspNet.Diagnostics.Entity >= 7.0.0-beta5",
       "Microsoft.AspNet.Identity.EntityFramework >= 3.0.0-beta5",
@@ -6494,7 +6011,9 @@
       "Microsoft.Framework.Logging.Console >= 1.0.0-beta5",
       "Microsoft.VisualStudio.Web.BrowserLink.Loader >= 14.0.0-beta5"
     ],
-    "DNX,Version=v4.5.1": [],
+    "DNX,Version=v4.5.1": [
+      "Microsoft.AspNet.Authentication.MicrosoftAccount >= 1.0.0-beta5"
+    ],
     "DNXCore,Version=v5.0": []
   }
 }
