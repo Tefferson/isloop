@@ -3,7 +3,8 @@
 }
 
 <div class=ctrl>
-    <h2 id="res">Verifique loop!</h2>
+    <h2 class="res" id="res">Verifique loop!</h2>
+    <input id="only-text" type="text" value="a:ab-b,ac-c,ad-d&b:bc-c&c:ca-a,cd-d&d:db-b,df-f&e&f" />
     <input class="cursor-pointer" id="only-button" type="button" value="go" onclick="onlyButton_OnClick()" />
 </div>
 
@@ -12,7 +13,7 @@
     function onlyButton_OnClick() {
 
         $.ajax({
-            data: {txt:'oi'},
+            data: {txt:$('#only-text').val()},
             url: 'Home/VerifyLoop',
             method: 'POST',
             success: function (res) {

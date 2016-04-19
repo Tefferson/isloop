@@ -4,7 +4,7 @@ namespace Domain
 {
     public class Rule
     {
-        private IList<Sentence> sentences;
+        public IList<Sentence> sentences { get; set; }
         public string Id { get; set; }
 
         public Rule(string id)
