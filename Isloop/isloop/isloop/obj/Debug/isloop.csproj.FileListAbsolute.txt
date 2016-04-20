@@ -1,19 +1,6 @@
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\csc.exe
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\vbc.exe
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\VBCSCompiler.exe
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\isloop.dll.config
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\isloop.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\isloop.pdb
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Helpers.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Mvc.dll
@@ -21,7 +8,6 @@ C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Razor.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Webpages.Deployment.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Webpages.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Webpages.Razor.dll
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Razor.xml
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Webpages.xml
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Webpages.Deployment.xml
