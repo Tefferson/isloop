@@ -2,6 +2,7 @@
 using Microsoft.AspNet.Mvc;
 using Domain;
 using System.Linq;
+using System;
 
 namespace Isloop.Controllers
 {
@@ -49,7 +50,7 @@ namespace Isloop.Controllers
         {
             string[] parts = code.Split(':');
             var rule = rules.First(r => r.Id.Equals(parts[0]));
-            if (parts.Length == 2)
+            if (parts.Length >= 2)
             {
                 string[] sentences = parts[1].Split(',');
                 foreach (var sentence in sentences)
@@ -75,9 +76,25 @@ namespace Isloop.Controllers
                 CreateSentences(codedRule, rules);
             }
 
+            foreach (var codedRule in codedRules)
+            {
+                InitializeDefaultRules(codedRule, rules);
+            }
+
             var validator = new Validator() { Rules = rules };
 
             return validator;
+        }
+
+        private void InitializeDefaultRules(string code, IList<Rule> rules)
+        {
+            string[] parts = code.Split(':');
+            var rule = rules.First(r => r.Id.Equals(parts[0]));
+            if (parts.Length >= 3)
+            {
+                var defaultRule = rules.First(r => r.Id.Equals(parts[2]));
+                rule.sentences.Add(new Sentence(defaultRule));
+            }
         }
     }
 }
