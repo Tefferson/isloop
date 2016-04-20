@@ -1,0 +1,5 @@
+C:\Users\Tefferson\Source\Repos\isloop\Isloop\Domain\bin\Debug\Domain.dll
+C:\Users\Tefferson\Source\Repos\isloop\Isloop\Domain\bin\Debug\Domain.pdb
+C:\Users\Tefferson\Source\Repos\isloop\Isloop\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Tefferson\Source\Repos\isloop\Isloop\Domain\obj\Debug\Domain.dll
+C:\Users\Tefferson\Source\Repos\isloop\Isloop\Domain\obj\Debug\Domain.pdb
