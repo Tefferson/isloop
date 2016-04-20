@@ -1,17 +1,26 @@
 ﻿@{
-    Layout = null;
+    ViewData["Title"] = "Home Page";
 }
 
-<!DOCTYPE html>
+<div class=ctrl>
+    <h2 class="res" id="res">Verifique loop!</h2>
+    <input id="only-text" type="text" value="a:ab-b,ac-c,ad-d&b:bc-c&c:ca-a,cd-d&d:db-b,df-f&e&f" />
+    <input class="cursor-pointer" id="only-button" type="button" value="go" onclick="onlyButton_OnClick()" />
+</div>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div> 
-       Migrando para um projeto limpo - Projetos com configuração default são chatos!
-    </div>
-</body>
-</html>
+<script>
+
+    function onlyButton_OnClick() {
+
+        $.ajax({
+            data: {txt:$('#only-text').val()},
+            url: 'Home/VerifyLoop',
+            method: 'POST',
+            success: function (res) {
+                $('#res').html(res.txt);
+            }
+        });
+
+    };
+
+</script>
