@@ -15,11 +15,7 @@ C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\isloop.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\isloop.pdb
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\Newtonsoft.Json.dll
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Net.Http.Formatting.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Helpers.dll
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Http.dll
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Http.WebHost.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Mvc.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Razor.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Webpages.Deployment.dll
@@ -32,10 +28,5 @@ C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Webpages.Dep
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Webpages.Razor.xml
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Helpers.xml
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Mvc.xml
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\Newtonsoft.Json.xml
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Net.Http.Formatting.xml
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Http.xml
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\bin\System.Web.Http.WebHost.xml
-C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\obj\Debug\isloop.csprojResolveAssemblyReference.cache
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\obj\Debug\isloop.dll
 C:\Users\Tefferson\Source\Repos\isloop\isloop\isloop\obj\Debug\isloop.pdb
