@@ -1,0 +1,40 @@
+﻿body {
+}
+
+.res {
+    white-space: pre-line;
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+
+.body-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 80vh;
+    width: 900px;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.ctrl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#only-text{
+    width: 50vw;
+    height: 6vh;
+    margin-bottom: 3vh;
+    font-size: 20pt;
+}
+
+#only-button {
+    margin-bottom: 3vh;
+}
